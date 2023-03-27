@@ -1,0 +1,121 @@
+/* .container{
+	margin-left: 0;
+	margin-right: 0;
+	margin: 10px 100px;
+} */
+
+.card-title {
+	text-align: left;
+	font-size: 16px;
+	color: #2e8cff;
+	text-decoration: none;
+	overflow: hidden;
+	display: -webkit-box;
+	line-height: 16px;
+	max-height: 32px; 
+	-webkit-line-clamp: 1; 
+	-webkit-box-orient: vertical;
+}
+.card-subtitle {
+	text-align: left;
+	font-size: 14px;
+	color: #0aa33d;
+	text-decoration: none;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; 
+	-webkit-box-orient: vertical;
+}
+
+.link-line {
+	text-decoration: none;
+}
+.limit-char {
+	color: black;
+	text-align: justify;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3; 
+	-webkit-box-orient: vertical;
+}
+
+.one-liner {
+	text-align: justify;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; 
+	-webkit-box-orient: vertical;
+}
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.navbar-toggler {
+	border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+}
+
+
+.toggler-icon {
+	width: 30px;
+	height: 3px;
+	background-color: #e74c3c;
+	display: block;
+	transition: all 0.2s;
+}
+
+
+.middle-bar {
+	margin: 5px auto;
+}
+
+
+.navbar-toggler .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+	transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+	transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+	background-color: #d2e82d;
+}
+
+
+
+ 
